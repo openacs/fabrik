@@ -109,7 +109,7 @@ create index qfab_jcitems_id_key on qfab_jcitems (id);
 --  bom_internal_key
 --  part _number
 --  model_series_number (not unique, for grouping purposes)
---  level (where 0 is lowest assembly level (ie. indivisible/raw material/aquired parts) value is 1 + max of the components in the bom
+--  level (where 0 is lowest assembly level (ie. indivisible/raw material/acquired parts) value is 1 + max of the components in the bom
 --  bom_sku (upc etc.)
 --  sellable_p
 --  service_item_p
